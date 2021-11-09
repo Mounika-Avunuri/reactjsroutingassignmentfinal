@@ -1,0 +1,45 @@
+.App {
+  text-align: center;
+}
+.main {
+  
+  background-color:white;
+  width: 100vh;
+  height: 100vh;
+  position: absolute;
+  border-radius: none;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  overflow: auto;
+  border: black;
+  margin-top:40px;
+  border-color: black;
+ 
+}
+h1{
+  display:flex;
+  align-items: center;
+
+justify-content:center;
+
+
+
+}
+nav{
+  
+ justify-content: space-around;
+align-items: center;
+min-height: 15vh;
+background-color:rgb(43, 43, 139);
+color:white;
+
+
+}
+.navlinks{
+  width:50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+list-style: none;
+}
