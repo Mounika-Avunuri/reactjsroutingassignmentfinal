@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="main">
       <Router>
-        <Content />
+        <Navbar />
         <Switch >
           <Route path='/Unmounting'>
             <Unmounting />
