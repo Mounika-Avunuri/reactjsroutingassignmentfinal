@@ -3,6 +3,8 @@ import React from 'react'
 function Mounting() {
     return (
         <div>
+        <center>
+        <h1>Mounting</h1>
             <p>In this phase, the instance of a component is created and inserted into the DOM. It consists of the following methods.</p>
             <p>
                 *componentWillMount()
@@ -12,6 +14,7 @@ function Mounting() {
                 *render()
                 This method is defined in each and every component. It is responsible for returning a single root HTML node element. If you don't want to render anything, you can return a null or false value.
             </p>
+    </center>
         </div>
     )
 }
